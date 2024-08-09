@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async (e) => {
     sectonCards.insertAdjacentHTML(
       "beforeend",
       `<div class="cards">
-          <img src= ${element.img} />
+          <img class="cards__img" src= ${element.img} />
           <div class="cards__content">
             <h3 class="cards-content__heading">${element.heading}</h3>
             <p class="cards-content__text">
