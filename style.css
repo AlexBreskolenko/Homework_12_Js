@@ -3,12 +3,12 @@
   box-sizing: border-box;
 }
 
-.section {
+.section-one {
   margin: 100px auto;
   max-width: 1140px;
 }
 
-.section__heading {
+.section-one__heading {
   font-weight: 400;
   font-size: 30px;
   color: #222;
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.section__text {
+.section-one__text {
   font-weight: 400;
   font-size: 14px;
   color: #9f9f9f;
@@ -25,7 +25,7 @@
   margin-top: 6px;
 }
 
-.section__cards {
+.section-one__cards {
   display: grid;
   grid-template-columns: repeat(3, 360px);
   grid-template-rows: repeat(2, 582px);
@@ -64,4 +64,92 @@
 .cards {
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.button__pop-up {
+  position: absolute;
+  display: none;
+  top: 188px;
+  left: 111px;
+  border: 1px solid #ffffff;
+  width: 139px;
+  height: 44px;
+  color: #fff;
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: rgba(28, 28, 28, 0);
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.cards:hover .cards__img {
+  filter: brightness(0.5);
+}
+
+.cards:hover .button__pop-up {
+  display: flex;
+}
+
+.section-two-heading {
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  color: #f16d7f;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 200px;
+}
+
+.section-two__basket {
+  position: relative;
+  max-width: 652px;
+  height: 306px;
+  display: flex;
+  box-shadow: 17px 19px 24px 0 rgba(0, 0, 0, 0.13);
+}
+
+.basket__img {
+  width: 262px;
+  height: 306px;
+  object-fit: contain;
+}
+
+.basket__icon-close {
+  position: absolute;
+  top: 28px;
+  right: 22px;
+}
+
+.basket__content {
+  padding: 22px 97px 22px 31px;
+}
+
+.basket-content__heading {
+  font-weight: 400;
+  font-size: 24px;
+  color: #222;
+  font-family: "Lato-Regular";
+}
+
+.basket-content__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9f9f9f;
+  font-family: "Lato-Regular";
+  margin-top: 52px;
+  margin-bottom: 50px;
+}
+
+.basket-content__price {
+  font-weight: 400;
+  font-size: 22px;
+  color: #575757;
+  font-family: "Lato-Regular";
+  color: #ef5b70;
 }
