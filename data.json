@@ -2,6 +2,8 @@
   {
     "id": 1,
     "img": "./img/img_one.png",
+    "icon-backet": "./img/icon-basket.svg",
+    "Pop-up_text": "Add to Cart",
     "heading": "ELLERY X M'O CAPSULE",
     "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
     "price": "$52.00"
@@ -9,6 +11,8 @@
   {
     "id": 2,
     "img": "./img/img_two.png",
+    "icon-backet": "./img/icon-basket.svg",
+    "Pop-up_text": "Add to Cart",
     "heading": "ELLERY X M'O CAPSULE",
     "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
     "price": "$52.00"
@@ -16,6 +20,8 @@
   {
     "id": 3,
     "img": "./img/img_three.png",
+    "icon-backet": "./img/icon-basket.svg",
+    "Pop-up_text": "Add to Cart",
     "heading": "ELLERY X M'O CAPSULE",
     "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
     "price": "$52.00"
@@ -23,6 +29,8 @@
   {
     "id": 4,
     "img": "./img/img_four.png",
+    "icon-backet": "./img/icon-basket.svg",
+    "Pop-up_text": "Add to Cart",
     "heading": "ELLERY X M'O CAPSULE",
     "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
     "price": "$52.00"
@@ -30,6 +38,8 @@
   {
     "id": 5,
     "img": "./img/img_five.png",
+    "icon-backet": "./img/icon-basket.svg",
+    "Pop-up_text": "Add to Cart",
     "heading": "ELLERY X M'O CAPSULE",
     "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
     "price": "$52.00"
@@ -37,6 +47,8 @@
   {
     "id": 6,
     "img": "./img/img_six.png",
+    "icon-backet": "./img/icon-basket.svg",
+    "Pop-up_text": "Add to Cart",
     "heading": "ELLERY X M'O CAPSULE",
     "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
     "price": "$52.00"
